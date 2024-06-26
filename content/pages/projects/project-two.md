@@ -9,7 +9,7 @@ description: >-
   made mostly by mself
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/OILBIG.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
