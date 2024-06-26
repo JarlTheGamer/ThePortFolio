@@ -383,7 +383,7 @@ sections:
           type: TextareaFormControl
         - name: updatesConsent
           label: Sign me up to recieve my words
-          isRequired: true
+          isRequired: false
           width: full
           type: CheckboxFormControl
       submitLabel: "Submit \U0001F680"
