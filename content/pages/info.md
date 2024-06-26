@@ -126,7 +126,7 @@ sections:
         actions:
           - type: Link
             label: Youtube
-            url: 'https://github.com/'
+            url: 'https://youtube.com/@FredericksOil'
         styles:
           self:
             textAlign: left
