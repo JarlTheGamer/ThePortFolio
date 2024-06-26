@@ -280,18 +280,17 @@ sections:
               - pr-0
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |-
-          **2015-2018**
+        text: |+
+          **2018-2020**
 
-          * ba computer sciense at a semi fancy school
+          *   Starting to learn lua
 
-          **2014**
 
-          * react certificate somewhere
 
-          **2011**
+          **2018**
 
-          * my highschool
+          *   Started working on games
+
         styles:
           self:
             textAlign: left
