@@ -299,14 +299,6 @@ sections:
 
           *   Started working on games
 
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
     columns: 2
     spacingX: 60
     spacingY: 60
@@ -333,7 +325,18 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-    ---
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
   - type: ContactSection
     backgroundSize: full
     title: "Let’s talk... \U0001F4AC"
