@@ -13,7 +13,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/OILBIG.png
+  url: /images/LogoFrederickyWhite.png
   altText: Project image
 ---
 When I started working on this game studio I started it as a so called "Roblox Myth" that is a horror story about a person or multiple people that people can go investigate and find all the stuff that has happened.
