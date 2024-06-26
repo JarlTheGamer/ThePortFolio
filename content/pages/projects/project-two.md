@@ -5,9 +5,8 @@ colors: colors-a
 date: '2021-05-21'
 client: My awesome game studio
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  I'ts hard to imagine that this is one of the biggest projects that I have ever
+  made mostly by mself
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
