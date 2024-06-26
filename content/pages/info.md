@@ -370,4 +370,39 @@ sections:
         textAlign: left
       text:
         textAlign: left
+    form:
+      type: FormBlock
+      title: Title of the form
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: false
+          placeholder: Your name
+          width: 1/2
+          isRequired: true
+        - type: EmailFormControl
+          name: email
+          label: Email
+          hideLabel: false
+          placeholder: Your email
+          width: 1/2
+          isRequired: true
+        - type: TextareaFormControl
+          name: message
+          label: Message
+          hideLabel: false
+          placeholder: Type your message here
+          width: full
+          isRequired: false
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+          isRequired: false
+      submitLabel: Send Message
+      elementId: contact
+      styles:
+        submitLabel:
+          textAlign: left
 ---
