@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Learning Music
 colors: colors-a
-date: '2023-04-15'
+date: '2023-04-06'
 client: Awesome client
 description: >-
   I have always loved music, from big band jazz to rock. I always wanted to make
