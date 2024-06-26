@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: 'Frederick''s Oil And Company, game studio'
 colors: colors-a
-date: '2021-05-20'
+date: '2021-05-21'
 client: Awesome client
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
