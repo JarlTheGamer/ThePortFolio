@@ -403,6 +403,44 @@ sections:
         textAlign: left
       text:
         textAlign: left
+
+    ---
+type: DividerSection
+title: Divider
+elementId: ''
+styles:
+  self:
+    width: wide
+    padding:
+      - pt-36
+      - pb-36
+      - pl-4
+      - pr-4
+    justifyContent: center
+    borderWidth: 1
+---
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label><br>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label><br>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label><br>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label><br>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
 ---
 
 
