@@ -370,6 +370,7 @@ sections:
         textAlign: left
       text:
         textAlign: left
+    
     form:
       type: FormBlock
       elementId: sign-up-form
