@@ -16,39 +16,7 @@ media:
   url: /images/TheImage.png
   altText: Project image
 metaTags: []
-bottomSections:
-  - type: TextSection
-    colors: colors-f
-    variant: variant-a
-    title: The Section Title
-    text: >+
-      ```
-
-      <iframe style="border-radius:12px"
-      src="https://open.spotify.com/embed/artist/2tsxmZQXJQ1aKgCm3whJrp?utm_source=generator"
-      width="100%" height="352" frameBorder="0" allowfullscreen=""
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen;
-      picture-in-picture" loading="lazy"></iframe>
-
-      ```
-
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
+bottomSections: []
 ---
 I started learning making music some months ago and I have been getting better. I got so good that I have even released my first song on spotify
 
