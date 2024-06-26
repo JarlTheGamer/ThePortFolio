@@ -169,6 +169,11 @@ sections:
           isRequired: false
           width: full
           type: CheckboxFormControl
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+          isRequired: false
       submitLabel: "Submit \U0001F680"
       styles:
         submitLabel:
