@@ -350,7 +350,7 @@ sections:
     title: "Let’s talk... \U0001F4AC"
     colors: colors-f
     
-    <form
+    <form:
       name="contact"
       type: FormBlock
       method="POST"
