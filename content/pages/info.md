@@ -351,7 +351,8 @@ sections:
     colors: colors-f
     
     form:
-    <form name="contact" method="POST" netlify>
+      name="contact"
+      method="POST"
       type: FormBlock
       elementId: sign-up-form
       fields:
