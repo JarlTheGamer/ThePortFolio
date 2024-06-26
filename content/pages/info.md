@@ -133,7 +133,7 @@ sections:
             iconPosition: right
             elementId: ''
           - type: Link
-            label: Learn more
+            label: Discord
             altText: ''
             url: /
             showIcon: false
