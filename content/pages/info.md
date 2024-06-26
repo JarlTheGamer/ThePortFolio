@@ -206,7 +206,7 @@ sections:
       - type: Label
         label: Microsoft Office
       - type: Label
-        label: Next.js
+        label: Photoshop
       - type: Label
         label: Netlify
       - type: Label
