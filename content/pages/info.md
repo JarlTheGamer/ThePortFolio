@@ -349,33 +349,60 @@ sections:
     backgroundSize: full
     title: "Let’s talk... \U0001F4AC"
     colors: colors-f
-    
----
-name: contact
-type: FormBlock
-method: POST
-elementId: sign-up-form
-data-netlify: true
----
-
-<form name="contact" method="POST" netlify>
-    <p>
-        <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-        <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-            </select></label>
-    </p>
-    <p>
-        <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-        <button type="submit">Send</button>
-    </p>
-</form>
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-4
+          - mr-4
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+    form:
+      type: FormBlock
+      title: Title of the form
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: false
+          placeholder: Your name
+          width: 1/2
+          isRequired: true
+        - type: EmailFormControl
+          name: email
+          label: Email
+          hideLabel: false
+          placeholder: Your email
+          width: 1/2
+          isRequired: true
+        - type: TextareaFormControl
+          name: message
+          label: Message
+          hideLabel: false
+          placeholder: Type your message here
+          width: full
+          isRequired: true
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+          isRequired: false
+      submitLabel: Send Message
+      elementId: contact
+      styles:
+        submitLabel:
+          textAlign: left
 ---
