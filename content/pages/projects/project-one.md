@@ -24,4 +24,5 @@ I started learning making music some months ago and I have been getting better. 
 
 There is not much to talk about this project as its one of my smaller projects but still a great thing, I would have never thought that I would become so ambitious.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0B7KgJULUinNuKrnhcZgi4?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
