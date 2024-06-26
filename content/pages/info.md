@@ -250,26 +250,19 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
+        text: |+
           **Current**
 
-          * freelance @freelance.me
+          *   Working on paid projects
 
-          **2018-2021**
+          **2022**
 
-          * fullstack at this startup
+          *   Frederick's Oil And Company, game studio
 
-          **2015**
+          **2021**
 
-          * senior front-end at this place
+          *   Made my first horror game that was scripted pretty well
 
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
         styles:
           self:
             textAlign: left
