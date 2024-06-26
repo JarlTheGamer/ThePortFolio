@@ -127,6 +127,15 @@ sections:
           - type: Link
             label: Twitter
             url: 'https://twitter.com/@JarlNiel'
+          - type: Button
+            label: Learn more
+            altText: ''
+            url: /
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
         styles:
           self:
             textAlign: left
