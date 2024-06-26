@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: ''
+title: Learning Music
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
