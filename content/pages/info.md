@@ -212,8 +212,6 @@ sections:
       - type: Label
         label: Python
       - type: Label
-        label: C++
-      - type: Label
         label: Swift
   - type: DividerSection
     styles:
