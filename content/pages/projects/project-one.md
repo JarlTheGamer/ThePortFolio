@@ -19,6 +19,9 @@ metaTags:
   - type: MetaTag
     property: 'og:title'
     content: ''
+  - type: MetaTag
+    property: 'og:title'
+    content: ''
 ---
 I started learning making music some months ago and I have been getting better. I got so good that I have even released my first song on spotify
 
