@@ -158,7 +158,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
+            url: 'https://discord.com/@fredericky'
         styles:
           self:
             textAlign: left
