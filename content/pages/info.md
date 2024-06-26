@@ -141,9 +141,6 @@ sections:
             iconPosition: right
             elementId: ''
           - type: Link
-            label: Twitter
-            url: 'https://twitter.com/@JarlNiel'
-          - type: Link
             label: Github
             altText: ''
             url: 'https://github.com/JarlTheGamer'
@@ -151,6 +148,9 @@ sections:
             icon: arrowRight
             iconPosition: right
             elementId: ''
+          - type: Link
+            label: Twitter
+            url: 'https://twitter.com/@JarlNiel'
         styles:
           self:
             textAlign: left
