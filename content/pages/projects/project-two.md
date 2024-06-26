@@ -6,7 +6,7 @@ date: '2021-05-21'
 client: My awesome game studio
 description: >-
   I'ts hard to imagine that this is one of the biggest projects that I have ever
-  made mostly by mself
+  made mostly by myself
 featuredImage:
   type: ImageBlock
   url: /images/OILBIG.png
