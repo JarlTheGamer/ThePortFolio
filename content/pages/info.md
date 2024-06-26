@@ -202,7 +202,7 @@ sections:
       - type: Label
         label: Luau
       - type: Label
-        label: React
+        label: Video editing
       - type: Label
         label: Microsoft Office
       - type: Label
