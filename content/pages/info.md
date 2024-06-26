@@ -138,6 +138,7 @@ sections:
         styles:
           self:
             textAlign: left
+        title: aaaa
       - type: FeaturedItem
         actions: []
         styles:
