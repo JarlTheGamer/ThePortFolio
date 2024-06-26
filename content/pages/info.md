@@ -349,7 +349,7 @@ sections:
     backgroundSize: full
     title: "Let’s talk... \U0001F4AC"
     colors: colors-f
-    form:
+    <form name="contact" method="POST" netlify>
       type: FormBlock
       elementId: sign-up-form
       fields:
