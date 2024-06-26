@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      Hey, I'm Frederick, a developer who loves creating endless possibilities
+      # Hey, I'm Frederick, a developer who loves creating endless possibilities
       through scripting. I always enjoy helping people with their projects and
       ideas. When I'm not busy developing games, you'll probably find me having
       a great time playing them. I'm a quirky and funny guy, always ready for a
