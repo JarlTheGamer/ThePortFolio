@@ -231,11 +231,8 @@ sections:
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
-    text: |+
-      ```
-      FrederickyXYZ@gmail.com
-      ```
-
+    text: |
+      mailto:FrederickyXYZ\@gmail.com
   - type: DividerSection
     styles:
       self:
