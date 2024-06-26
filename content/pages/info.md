@@ -134,7 +134,7 @@ sections:
         actions:
           - type: Link
             label: Twitter
-            url: 'https://twitter.com/'
+            url: 'https://twitter.com/@JarlNiel'
         styles:
           self:
             textAlign: left
