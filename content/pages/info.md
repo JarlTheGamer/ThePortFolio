@@ -127,7 +127,7 @@ sections:
           - type: Link
             label: Youtube
             altText: ''
-            url: /
+            url: 'https://youtube.com/@FredericksOil'
             showIcon: false
             icon: arrowRight
             iconPosition: right
