@@ -147,10 +147,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Youtube
-            url: 'https://youtube.com/@FredericksOil'
+        actions: []
         styles:
           self:
             textAlign: left
