@@ -125,16 +125,16 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Youtube
-            url: 'https://youtube.com/@FredericksOil'
+            label: Twitter
+            url: 'https://twitter.com/@JarlNiel'
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
-            url: 'https://twitter.com/@JarlNiel'
+            label: Youtube
+            url: 'https://youtube.com/@FredericksOil'
         styles:
           self:
             textAlign: left
