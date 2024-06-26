@@ -372,37 +372,64 @@ sections:
         textAlign: left
     form:
       type: FormBlock
-      title: Title of the form
+      elementId: sign-up-form
       fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          hideLabel: false
-          placeholder: Your name
+        - name: firstName
+          label: First Name
+          hideLabel: true
+          placeholder: First Name
+          isRequired: true
           width: 1/2
-          isRequired: true
-        - type: EmailFormControl
-          name: email
-          label: Email
-          hideLabel: false
-          placeholder: Your email
-          width: 1/2
-          isRequired: true
-        - type: TextareaFormControl
-          name: message
-          label: Message
-          hideLabel: false
-          placeholder: Type your message here
-          width: full
-          isRequired: true
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
-          width: full
+          type: TextFormControl
+        - name: lastName
+          label: Last Name
+          hideLabel: true
+          placeholder: Last Name
           isRequired: false
-      submitLabel: Send Message
-      elementId: contact
+          width: 1/2
+          type: TextFormControl
+        - name: email
+          label: Email
+          hideLabel: true
+          placeholder: Email
+          isRequired: true
+          width: 1/2
+          type: EmailFormControl
+        - name: address
+          label: Address
+          hideLabel: true
+          placeholder: Address
+          isRequired: true
+          width: 1/2
+          type: TextFormControl
+        - name: updatesConsent
+          label: Sign me up to recieve updates
+          isRequired: false
+          width: full
+          type: CheckboxFormControl
+      submitLabel: "Submit \U0001F680"
       styles:
         submitLabel:
-          textAlign: left
+          textAlign: center
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-24
+          - pb-24
+          - pr-4
+          - pl-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      text:
+        textAlign: left
 ---
