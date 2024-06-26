@@ -346,6 +346,9 @@ sections:
           - pr-4
         justifyContent: center
         borderWidth: 1
+
+---
+
 <form name="contact" netlify>
   <p>
     <label>Name <input type="text" name="name" /></label>
@@ -357,6 +360,3 @@ sections:
     <button type="submit">Send</button>
   </p>
 </form>
-
----
-
