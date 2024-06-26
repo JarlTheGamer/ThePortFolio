@@ -115,6 +115,15 @@ sections:
           - type: Link
             label: Youtube
             url: 'https://youtube.com/@FredericksOil'
+          - type: Button
+            label: Learn more
+            altText: ''
+            url: 'https://twitter.com/@JarlNiel'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
         styles:
           self:
             textAlign: left
