@@ -349,28 +349,6 @@ sections:
     backgroundSize: full
     title: "Let’s talk... \U0001F4AC"
     colors: colors-f
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      text:
-        textAlign: left
-    
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -394,17 +372,17 @@ sections:
           hideLabel: true
           placeholder: Email
           isRequired: true
-          width: 1/2
+          width: full
           type: EmailFormControl
-        - name: address
-          label: Address
+        - name: message
+          label: Message
           hideLabel: true
-          placeholder: Address
+          placeholder: Tell me about your project
           isRequired: true
-          width: 1/2
-          type: TextFormControl
+          width: full
+          type: TextareaFormControl
         - name: updatesConsent
-          label: Sign me up to recieve updates
+          label: Sign me up to recieve my words
           isRequired: false
           width: full
           type: CheckboxFormControl
@@ -419,11 +397,11 @@ sections:
         margin:
           - mt-0
           - mb-0
-          - ml-0
-          - mr-0
+          - ml-4
+          - mr-4
         padding:
-          - pt-24
-          - pb-24
+          - pt-12
+          - pb-12
           - pr-4
           - pl-4
         alignItems: center
