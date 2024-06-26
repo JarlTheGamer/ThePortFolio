@@ -350,10 +350,13 @@ sections:
     title: "Let’s talk... \U0001F4AC"
     colors: colors-f
     
-    form:
+    <form
       name="contact"
       type: FormBlock
+      method="POST"
       elementId: sign-up-form
+      data-netlify="true"
+      >
       fields:
         - name: firstName
           label: First Name
