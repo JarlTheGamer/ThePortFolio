@@ -9,7 +9,7 @@ description: >-
   music and it has always been a dream to make a big band jazz song.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/TheImage.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
