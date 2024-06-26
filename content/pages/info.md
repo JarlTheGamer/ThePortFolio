@@ -125,7 +125,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Learn more
+            label: Youtube
             altText: ''
             url: /
             showIcon: false
