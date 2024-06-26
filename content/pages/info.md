@@ -144,7 +144,7 @@ sections:
             label: Twitter
             url: 'https://twitter.com/@JarlNiel'
           - type: Link
-            label: Learn more
+            label: Github
             altText: ''
             url: 'https://github.com/JarlTheGamer'
             showIcon: false
