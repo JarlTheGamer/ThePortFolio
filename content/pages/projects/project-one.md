@@ -16,13 +16,9 @@ media:
   url: /images/TheImage.png
   altText: Project image
 ---
-I started learning making music some months ago and I have been getting better. I got so good that I have even released my first song on spotify 
+I started learning making music some months ago and I have been getting better. I got so good that I have even released my first song on spotify
 
-
-
-```
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2hyCLlQmEGTH8h3XX5TPXO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-```
+`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2hyCLlQmEGTH8h3XX5TPXO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
 
 > “Everybody should learn to program a computer, because it teaches you how to think.”
 
