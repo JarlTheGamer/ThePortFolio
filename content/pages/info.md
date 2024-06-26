@@ -69,7 +69,7 @@ sections:
         altText: Logo one
         caption: Logo one
       - type: ImageBlock
-        url: /images/LogoFredericky.png
+        url: /images/LogoFrederickyWhite.png
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
