@@ -352,7 +352,6 @@ sections:
     
     form:
       name="contact"
-      method="POST"
       type: FormBlock
       elementId: sign-up-form
       fields:
