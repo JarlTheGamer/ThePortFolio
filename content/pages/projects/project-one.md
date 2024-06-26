@@ -22,3 +22,6 @@ I started learning making music some months ago and I have been getting better. 
 > “Making music is not just music, its making art.”
 
 There is not much to talk about this project as its one of my smaller projects but still a great thing, I would have never thought that I would become so ambitious.
+
+
+
