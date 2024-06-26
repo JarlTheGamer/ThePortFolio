@@ -21,13 +21,17 @@ bottomSections:
     colors: colors-f
     variant: variant-a
     title: The Section Title
-    text: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    text: >+
+      ```
+
+      <iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/artist/2tsxmZQXJQ1aKgCm3whJrp?utm_source=generator"
+      width="100%" height="352" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen;
+      picture-in-picture" loading="lazy"></iframe>
+
+      ```
+
     elementId: ''
     styles:
       self:
