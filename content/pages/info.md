@@ -299,6 +299,14 @@ sections:
 
           *   Started working on games
 
+        styles:
+          self:
+            textAlign: left
+            padding:
+              - pt-0
+              - pl-0
+              - pb-0
+              - pr-0
     columns: 2
     spacingX: 60
     spacingY: 60
@@ -403,7 +411,5 @@ sections:
         textAlign: left
       text:
         textAlign: left
-    ---
-
-
+---
 
