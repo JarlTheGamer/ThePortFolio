@@ -125,9 +125,6 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
-            url: 'https://twitter.com/@JarlNiel'
-          - type: Link
             label: Learn more
             altText: ''
             url: /
@@ -135,6 +132,9 @@ sections:
             icon: arrowRight
             iconPosition: right
             elementId: ''
+          - type: Link
+            label: Twitter
+            url: 'https://twitter.com/@JarlNiel'
         styles:
           self:
             textAlign: left
