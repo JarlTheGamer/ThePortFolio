@@ -211,8 +211,6 @@ sections:
         label: Netlify
       - type: Label
         label: Python
-      - type: Label
-        label: Swift
   - type: DividerSection
     styles:
       self:
