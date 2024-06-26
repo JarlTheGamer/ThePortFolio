@@ -17,7 +17,7 @@ sections:
     subtitle: >-
       Welcome to my website, a hub for showcasing my work and alot more. I will
       be making blogs every once in a while that you can read through with new
-      games and new projects that I will be working no. Whether you are a good
+      games and new projects that I will be working on. Whether you are a good
       scripter or not, I have something that fits everyone's cup of tea!
     styles:
       self:
