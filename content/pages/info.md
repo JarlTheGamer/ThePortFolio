@@ -358,65 +358,24 @@ elementId: sign-up-form
 data-netlify: true
 ---
 
-fields:
-  - name: firstName
-    label: First Name
-    hideLabel: true
-    placeholder: First Name
-    isRequired: true
-    width: 1/2
-    type: TextFormControl
-  - name: lastName
-    label: Last Name
-    hideLabel: true
-    placeholder: Last Name
-    isRequired: false
-    width: 1/2
-    type: TextFormControl
-  - name: email
-    label: Email
-    hideLabel: true
-    placeholder: Email
-    isRequired: true
-    width: full
-    type: EmailFormControl
-  - name: message
-    label: Message
-    hideLabel: true
-    placeholder: Tell me about your project
-    isRequired: true
-    width: full
-    type: TextareaFormControl
-  - name: updatesConsent
-    label: Sign me up to receive my words
-    isRequired: false
-    width: full
-    type: CheckboxFormControl
-
-submitLabel: "Submit \U0001F680"
-
-styles:
-  submitLabel:
-    textAlign: center
-
-self:
-  height: auto
-  width: narrow
-  margin:
-    - mt-0
-    - mb-0
-    - ml-4
-    - mr-4
-  padding:
-    - pt-12
-    - pb-12
-    - pr-4
-    - pl-4
-  alignItems: center
-  justifyContent: center
-  flexDirection: row
-title:
-  textAlign: left
-text:
-  textAlign: left
+<form name="contact" method="POST" netlify>
+    <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+        <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+            </select></label>
+    </p>
+    <p>
+        <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+        <button type="submit">Send</button>
+    </p>
+</form>
 ---
