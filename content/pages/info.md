@@ -233,6 +233,7 @@ sections:
     colors: colors-f
     text: |+
       ```
+      FrederickyXYZ@gmail.com
       ```
 
   - type: DividerSection
