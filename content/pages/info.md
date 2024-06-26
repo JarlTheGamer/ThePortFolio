@@ -65,7 +65,7 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
-        url: /images/OilLogo3.png
+        url: /images/Png.png
         altText: Logo one
         caption: Logo one
       - type: ImageBlock
