@@ -335,31 +335,29 @@ sections:
         textAlign: left
     ---
 
-  type: DividerSection
-  title: Divider
-  elementId: ''
-  styles:
-    self:
-      width: wide
-      padding:
-        - pt-36
-        - pb-36
-        - pl-4
-        - pr-4
-      justifyContent: center
-      borderWidth: 1
-
-    <form name="contact" netlify>
-    <p>
-      <label>Name <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Email <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
-
+    type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
 ---
+  <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
