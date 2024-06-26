@@ -394,7 +394,7 @@ sections:
           hideLabel: false
           placeholder: Type your message here
           width: full
-          isRequired: false
+          isRequired: true
         - type: CheckboxFormControl
           name: updates
           label: Sign me up to receive updates
