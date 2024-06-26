@@ -135,7 +135,7 @@ sections:
           - type: Link
             label: Discord
             altText: ''
-            url: /
+            url: 'https://discord.com/users/430358055780352000'
             showIcon: false
             icon: arrowRight
             iconPosition: right
