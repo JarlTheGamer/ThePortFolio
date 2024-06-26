@@ -163,10 +163,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/users/430358055780352000'
+        actions: []
         styles:
           self:
             textAlign: left
