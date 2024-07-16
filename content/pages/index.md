@@ -196,7 +196,9 @@ sections:
         textAlign: left
   - type: ContactSection
     title: "Got an interesting project? Tell me more...\U0001F4AC"
-    text: I'm look forward to hearing from you.
+    text: |+
+
+
     form:
       type: FormBlock
       title: Title of the form
