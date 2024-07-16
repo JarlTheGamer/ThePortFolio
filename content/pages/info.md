@@ -22,7 +22,7 @@ sections:
 
     media:
       type: ImageBlock
-      url: /images/_37f13611-e7ba-4d7d-991a-2518e1005f72.jpg
+      url: /images/bdda2a3d5f902bb70859017475115a56.png
       altText: Hero image
     styles:
       self:
@@ -334,82 +334,75 @@ sections:
       subtitle:
         textAlign: left
   - type: DividerSection
+    title: Divider
+    elementId: ''
     styles:
       self:
         width: wide
         padding:
-          - pt-12
-          - pb-12
+          - pt-36
+          - pb-36
           - pl-4
           - pr-4
         justifyContent: center
         borderWidth: 1
-        borderStyle: solid
   - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
-    colors: colors-f
+    title: Contact Me
+    text: |+
+
+
     form:
       type: FormBlock
-      elementId: sign-up-form
+      title: Title of the form
       fields:
-        - name: firstName
-          label: First Name
+        - type: TextFormControl
+          name: name
+          label: Name
           hideLabel: true
-          placeholder: First Name
-          isRequired: true
+          placeholder: Your name
           width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
+          isRequired: 'true'
+        - type: EmailFormControl
+          name: email
+          label: Name
           hideLabel: true
-          placeholder: Last Name
-          isRequired: false
+          placeholder: Your email
           width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
+          isRequired: 'true'
+        - type: TextareaFormControl
+          name: message
+          label: Tell me about your project
           hideLabel: true
           placeholder: Tell me about your project
+          width: full
           isRequired: true
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
           width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+          isRequired: 'false'
+      submitLabel: Send Message
+      elementId: contact-form
       styles:
         submitLabel:
-          textAlign: center
+          textAlign: left
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
         padding:
-          - pt-12
-          - pb-12
-          - pr-4
+          - pt-28
+          - pb-36
           - pl-4
+          - pr-4
         alignItems: center
         justifyContent: center
         flexDirection: row
       title:
-        textAlign: left
+        textAlign: center
       text:
-        textAlign: left
+        textAlign: center
 ---
-
