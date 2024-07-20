@@ -361,7 +361,7 @@ sections:
           hideLabel: true
           placeholder: Your name
           width: 1/2
-          netlify = true
+          netlify: true
           isRequired: 'true'
         - type: EmailFormControl
           name: email
