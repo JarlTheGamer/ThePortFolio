@@ -1,6 +1,8 @@
 [build]
   publish = ".next"
   command = "npm run build"
+  command = "npm audit fix"
+  
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
