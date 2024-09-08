@@ -17,11 +17,15 @@ export default function FormBlock(props) {
         try {
             const myForm = event.target;
             const formData = new FormData(myForm);
-            const res = await fetch('/__forms.html', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
-            });
+            const fetchData = async () => {
+                const res = await fetch('/__forms.html', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: new URLSearchParams(formData).toString()
+                });
+
             if (res.status === 200) {
                 setStatus('ok');
             } else {
