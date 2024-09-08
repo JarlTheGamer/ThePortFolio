@@ -36,7 +36,7 @@ export default function FormBlock(props) {
     
 
     return (
-        <form name="contact" netlify 
+        <form 
             className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
             name={elementId}
             id={elementId}
