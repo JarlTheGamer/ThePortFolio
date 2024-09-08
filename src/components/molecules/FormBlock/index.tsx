@@ -20,14 +20,20 @@ export default function FormBlock(props) {
       const myForm = event.target;
       const formData = new FormData(myForm);
       
-      fetch("/", {
-        method: "POST",
-        body: new URLSearchParams(formData).toString(),
-      })
-        .then(() => alert("Thank you for your submission"))
-        .catch((error) => alert(error));
+    const params = new URLSearchParams();
+    for (const pair of formData.entries()) {
+      params.append(pair[0], pair[1]);
     }
+    fetch("/", {
+      method: "POST",
+      body: params.toString()
+    })
+    .then(() => alert("Thank you for your submission"))
+    .catch((error) => alert(error));
 
+        
+    }
+    
 
     return (
         <form
