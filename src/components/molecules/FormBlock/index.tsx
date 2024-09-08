@@ -22,7 +22,7 @@ export default function FormBlock(props) {
       
     const params = new URLSearchParams();
     for (const pair of formData.entries()) {
-      params.append(pair[0], pair[1]);
+      params.append(String(pair[0]), String(pair[1]));
     }
     fetch("/", {
       method: "POST",
