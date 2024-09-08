@@ -40,7 +40,6 @@ export default function FormBlock(props) {
             name= "contact"
             data-netlify="true"
             className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
-            name={elementId}
             id={elementId}
             onSubmit={handleSubmit}
             ref={formRef}
