@@ -19,14 +19,19 @@ export default function FormBlock(props) {
         try {
             const myForm = event.target;
             const formData = new FormData(myForm);
+    
+            // Convert FormData to URLSearchParams
+            const formDataEntries = Array.from(formData.entries());
+            const urlSearchParams = new URLSearchParams(formDataEntries);
+    
             const res = await fetch('/__forms.html', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
                 },
-                body: new URLSearchParams(formData).toString()
+                body: urlSearchParams.toString()
             });
-
+    
             if (res.status === 200) {
                 setStatus('ok');
             } else {
