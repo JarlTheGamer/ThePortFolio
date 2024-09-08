@@ -6,25 +6,26 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 
 export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
+    const [status, setStatus] = React.useState('');
+    const [error, setError] = React.useState('');
     const { elementId, className, fields = [], submitLabel, styles = {} } = props;
 
     if (fields.length === 0) {
         return null;
     }
 
-    function handleSubmit(event) {
-         event.preventDefault();
+    async function handleSubmit(event) {
+        event.preventDefault();
         try {
             const myForm = event.target;
             const formData = new FormData(myForm);
-            const fetchData = async () => {
-                const res = await fetch('/__forms.html', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded'
-                    },
-                    body: new URLSearchParams(formData).toString()
-                });
+            const res = await fetch('/__forms.html', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams(formData).toString()
+            });
 
             if (res.status === 200) {
                 setStatus('ok');
@@ -36,7 +37,8 @@ export default function FormBlock(props) {
             setStatus('error');
             setError(`${e}`);
         }
-    };
+    }
+
     return (
         <form
             className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
@@ -56,6 +58,18 @@ export default function FormBlock(props) {
                     {submitLabel}
                 </button>
             </div>
+            {status === 'ok' && (
+                <div className="mt-4 text-green-600">
+                    <SuccessIcon />
+                    <p>Form submitted successfully!</p>
+                </div>
+            )}
+            {status === 'error' && (
+                <div className="mt-4 text-red-600">
+                    <ErrorIcon />
+                    <p>Error: {error}</p>
+                </div>
+            )}
         </form>
     );
 }
@@ -77,7 +91,8 @@ function SuccessIcon() {
         </svg>
     );
 }
-function ErrorIcon(success) {
+
+function ErrorIcon() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
