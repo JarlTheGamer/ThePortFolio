@@ -27,7 +27,7 @@ export default function FormBlock(props) {
       })
         .then(() => alert("Thank you for your submission"))
         .catch((error) => alert(error));
-    };
+    }
 
 
     return (
