@@ -14,35 +14,21 @@ export default function FormBlock(props) {
         return null;
     }
 
-    async function handleSubmit(event) {
-        event.preventDefault();
-        try {
-            const myForm = event.target;
-            const formData = new FormData(myForm);
+    const handleSubmit = (event) => {
+      event.preventDefault();
     
-            // Convert FormData to URLSearchParams
-            const formDataEntries = Array.from(formData.entries());
-            const urlSearchParams = new URLSearchParams(formDataEntries);
-    
-            const res = await fetch('/__forms.html', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                },
-                body: urlSearchParams.toString()
-            });
-    
-            if (res.status === 200) {
-                setStatus('ok');
-            } else {
-                setStatus('error');
-                setError(`${res.status} ${res.statusText}`);
-            }
-        } catch (e) {
-            setStatus('error');
-            setError(`${e}`);
-        }
-    }
+      const myForm = event.target;
+      const formData = new FormData(myForm);
+      
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      })
+        .then(() => alert("Thank you for your submission"))
+        .catch((error) => alert(error));
+    };
+
 
     return (
         <form
