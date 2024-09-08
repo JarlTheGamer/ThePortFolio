@@ -15,7 +15,7 @@ export default function FormBlock(props) {
     function handleSubmit(event) {
          event.preventDefault();
         try {
-            setStatus('pending');
+            Status('pending');
             setError(null);
             const myForm = event.target;
             const formData = new FormData(myForm);
